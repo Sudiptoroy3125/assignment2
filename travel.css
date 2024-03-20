@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* nav styles starts */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.holiday-travel {
+    display: flex;
+    align-items: center;
+}
+
+.holiday-travel h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.holiday-travel h1 > span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.holiday-travel img {
+    width: 3rem;
+    margin-right: 10px;
+}
+
+.nav-options a {
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.nav-options>a>span {
+    color: #FF5400;
+}
+.hamburger > img{
+    display: none;
+    position: relative;
+    margin: 0px;
+    width: 24px
+}
+/* nav styles ends */

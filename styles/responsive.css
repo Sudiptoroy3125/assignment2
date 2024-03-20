@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .nav-options a {
+        display: none;
+    }
+
+    .holiday-travel img {
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+    }
+
+    .holiday-travel h1 {
+        color: #131318;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .holiday-travel h1>span {
+        color: #FF5400;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .hamburger>img {
+        display: block;
+    }
+
+    .hamburger {
+        cursor: pointer;
+    }
+
+    /* banner styles */
+    .banner {
+        width: 350px;
+        height: 500px;
+        flex-shrink: 0;
+    }
+
+    .banner>.banner-title {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner>.banner-des {
+        width: 300px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .banner>.destination-inputs {
+        display: flex;
+        width: 287px;
+        height: 280px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner>.destination-inputs input,
+    select {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .destination-inputs>.find-button {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    /* populars section styles */
+    .popular-tours-section {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popular-tours-info>.populars-title {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .popular-tours-info>.popular-des {
+        width: 330px;
+    }
+
+    .popular-tours-info>ul,
+    p {
+        width: 300px;
+    }
+
+    .poular-tours-img>img {
+        margin-top: 30px;
+        width: 335px;
+        height: 342px;
+    }
+
+    /* destination section styles */
+    .destinaton-title>h3 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .destinaton-title>p {
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .destinaton-title {
+        margin-bottom: 10px;
+    }
+
+    .destination-section {
+        margin-top: 0px;
+    }
+
+    .first-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .second-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .third-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .image-container>.first-container>.div-1 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    .image-container>.first-container>.div-2>h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-container>.second-container>.div-3>h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-container>.second-container>.div-4>h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-container>.second-container>.div-5>h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-container>.third-container>.div-6>h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-container>.third-container>.div-7>h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-container>.first-container>.div-2 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    .image-container>.second-container>.div-3 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    .image-container>.second-container>.div-4 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    .image-container>.second-container>.div-5 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    .image-container>.third-container>.div-6 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-bottom: 20px;
+    }
+
+    .image-container>.third-container>.div-7 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    /* why choose us styles */
+    .why-choose-us>h3 {
+        font-size: 20px
+    }
+
+    .why-choose-us>p {
+        width: 309px;
+        font-size: 14px;
+    }
+
+    .choose-us-container {
+        grid-template-columns: 1fr;
+    }
+
+    .choose-us-container>div {
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+
+    .choose-us-container>.hotels>P {
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .choose-us-container>.world-class>P {
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .best-price {
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+
+    .best-price p {
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+
+}
