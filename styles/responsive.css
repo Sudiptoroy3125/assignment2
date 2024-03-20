@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @media only screen and (max-width: 600px) {
-    body {
+    .container {
         max-width: 375px;
         margin: 0 auto;
     }
@@ -359,6 +359,9 @@
     }
     .travel-com>h2{
         font-size: 21.138px;
+    }
+    footer>.footer-description{
+        width: 287px;
     }
 
 
