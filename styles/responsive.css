@@ -313,5 +313,53 @@
         line-height: 24px;
     }
 
+    /* newletter styles */
+    .newsletter-section {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .newsletter-section>.form {
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin-bottom: 60px;
+        width: 335px;
+        height: 370px;
+        flex-shrink: 0;
+    }
+
+    .newsletter-section>.form>input {
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .newsletter-section>.form>button {
+        width: 308px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .newsletter-section>.form-img {
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+    }
+
+    .travel-com {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+    }
+    .travel-com>h5{
+        font-size: 15.854px;
+    }
+    .travel-com>h2{
+        font-size: 21.138px;
+    }
+
 
 }
